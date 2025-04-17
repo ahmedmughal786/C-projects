@@ -9,8 +9,10 @@ C is a powerful, low-level programming language commonly used in systems program
 
 Each folder in this repository represents an individual C project and contains:
 - Source code files (`.c`)
-- A short `README.md` explaining the project
+- Algorithm / Pseudocode
+- Test cases
 - Input/output samples (if needed)
+- A short `README.md` explaining the project
 
 ### 🛠 Sample Projects
 - Speed Fine Calculator
