@@ -1,0 +1,7 @@
+Majad 2 3
+Alice 5 2 
+Ahad 1 4
+Jane 1 1 
+Bob 2 2 
+Alice 1 0
+Mughal 2 0  
