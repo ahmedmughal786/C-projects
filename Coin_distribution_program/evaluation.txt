@@ -1,0 +1,14 @@
+What Works:
+• The program’s structure is modular, separating functionality into different functions. This organization improved readability and made it easier to debug and manage the code. Functions like SelectCurrency, GetAmountInput, CalculateCoins, and DisplayCoinResults perform their specific tasks well.
+• The program accurately calculated the number of coins required for each currency denomination.
+• The program correctly identified and prompted the user to re-enter a valid currency if an invalid option was selected.
+• The program accurately calculated the number of coins required for each currency denomination. The results displayed the correct number of coins for amounts entered, using the defined denominations for US$, AU$, and Euro.
+
+What Does Not Work:
+• I encountered an issue with initializing the coinCount array when using a variable size. The program didn’t allow me to initialize the array with {0} directly when the size was determined by a variable like Size. I resolved this by manually setting each element to zero after declaring the array.
+• I noticed that the program crashed if the user entered non-numeric values for the amount input. I didn’t account for this in my initial code, and it’s something I need to fix by adding validation to check for non-numeric input.
+• Although the results display correctly, I found that the formatting of the output could be improved. The current layout could be clearer, and I plan to adjust it by adding better labels or spacing to make it more readable.
+• The 'CheckContinueOrExit' function previously had issues with handling user responses. I improved it to ensure that only 'y' or 'n' inputs influence the program's flow, making it more resilient to unexpected inputs.
+
+Tool Utilized: Windows Malicious Software Removal Tool 64-bit
+Version: 5.125
